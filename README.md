@@ -16,10 +16,8 @@ Usage
 
 source("C:\\Users\\fengsw\\Desktop\\liangjl\\NC_P_vOTUs\\vOTU_coverage\\depth\\rarefy_sample.R")
 
-# resample
-resample_df_normal_coverage  <- rarefy_gene_sample(df_normal_coverage, step = 1, reps = 500)  
+resample_df_normal_coverage  <- rarefy_gene_sample(df_normal_coverage, step = 1, reps = 500)  # resample
 
-# Mean for accumulative curves
-resample_df_normal_coverage_Mean <- data.frame(colMeans(data.frame(resample_df_normal_coverage)))  
+resample_df_normal_coverage_Mean <- data.frame(colMeans(data.frame(resample_df_normal_coverage)))  # Mean for accumulative curves
 
 Special, df_normal_coverage: Columns are samples and rows represent sequences. 
