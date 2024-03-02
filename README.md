@@ -14,7 +14,7 @@ Accumulative curves for normal coverage table using the R script
 
 Usage
 
-source("C:\\Users\\fengsw\\Desktop\\liangjl\\NC_P_vOTUs\\vOTU_coverage\\depth\\rarefy_sample.R")
+source("rarefy_sample.R")
 
 resample_df_normal_coverage  <- rarefy_gene_sample(df_normal_coverage, step = 1, reps = 500)  # resample
 
